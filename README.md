@@ -11,14 +11,13 @@ shadowsocks不需要太高的配置，咱们选择最基础的配置就可以啦
 
 支付宝付款^_^
 
-在购买完服务器后，你会收到一封邮件：
-
-[[file:tutorial/mail.png]]
+在购买完服务器后，你会收到一封邮件,告知你服务器已经开通，以及服务器的一些基本信息
 
 务必保存好这封邮件，以免之后遗忘。
 
 ## 什么是咱们要关心的？
 主IP: `XXX.XXX.XXX.XXX`
+
 Root 密码： `XXXXXXXXXXXXXXXXXXXXXX`
 
 # 第一次连接服务器
@@ -93,7 +92,7 @@ Root 密码： `XXXXXXXXXXXXXXXXXXXXXX`
 	按 ‘i’  进入编辑模式，
 
 	按如下格式输入如下内容：
-	
+
 	其中 Server 就是你的 主IP; 
 
 	Your Password 是shadowsocks登陆密码;
