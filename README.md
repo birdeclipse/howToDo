@@ -93,9 +93,19 @@ Root 密码： `XXXXXXXXXXXXXXXXXXXXXX`
 
 	按如下格式输入如下内容：
 
-	其中 Server 就是你的 主IP; 
+	server：服务器 IP地址 (IPv4/IPv6)
 
-	Your Password 是shadowsocks登陆密码;
+	server_port：服务器监听的端口，一般设为80，443等，注意不要设为使用中的端口
+
+	password：设置密码，自定义
+
+	timeout：超时时间（秒）
+
+	method：加密方法，可选择 “aes-256-cfb”, “rc4-md5”等等。推荐使用 “rc4-md5”
+
+	fast_open：true 或 false。如果你的服务器 Linux 内核在3.7+，可以开启 fast_open 以降低延迟。
+
+	example:
 
 		{
 		"server":"XXX.XXX.XXX.XXX",
