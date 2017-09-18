@@ -1,4 +1,4 @@
-# 购买服务器
+# 购买服务器￥￥￥
 https://www.50vz.net/
 
 购买前记得注册用户
@@ -17,11 +17,11 @@ shadowsocks不需要太高的配置，咱们选择最基础的配置就可以啦
 
 务必保存好这封邮件，以免之后遗忘。
 
-## 划红线的是咱们要关心的：
+## 什么是咱们要关心的？
 主IP: `XXX.XXX.XXX.XXX`
 Root 密码： `XXXXXXXXXXXXXXXXXXXXXX`
 
-# 第一次连接服务器
+# 第一次连接服务器！！！
 
 1. 打开Mac Os 的终端(Terminal)
 
@@ -70,7 +70,7 @@ Root 密码： `XXXXXXXXXXXXXXXXXXXXXX`
 	exit
 
 
-# 建立shadowsocks 服务器
+# 建立shadowsocks 服务器 GO !!!
 1.	ssh 远程连接服务器， 记住如果修改了 ssh 默认端口号，请用新的端口号登录
 	Example:
 
