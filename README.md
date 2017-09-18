@@ -64,7 +64,9 @@ Root 密码： `XXXXXXXXXXXXXXXXXXXXXX`
 
 	`如果你修改了端口号，一定要记下来！`
 
-		Example: 22 -> 2345 
+	Example:
+
+		22 -> 2345 
 	
 7. 熟悉一下远程环境，结束第一次远程服务器访问:
 
@@ -105,7 +107,7 @@ Root 密码： `XXXXXXXXXXXXXXXXXXXXXX`
 
 	fast_open：true 或 false。如果你的服务器 Linux 内核在3.7+，可以开启 fast_open 以降低延迟。
 
-	example:
+	Example:
 
 		{
 		"server":"XXX.XXX.XXX.XXX",
