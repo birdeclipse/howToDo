@@ -3,7 +3,8 @@ https://www.50vz.net/
 购买前记得注册用户
 shadowsocks不需要太高的配置，咱们选择最基础的配置就可以啦
 我选择的是洛杉矶C3，最低的默认配置
-`20.00RMB/月`支付宝付款^_^
+`20.00RMB/月`
+支付宝付款^_^
 在购买完服务器后，你会收到一封邮件：
 [[file:tutorial/mail.png]]
 务必保存好这封邮件，以免之后遗忘。
@@ -62,16 +63,16 @@ Example:
 #+END_SRC
 
 
-##建立shadowsocks 服务器
+## 建立shadowsocks 服务器
 1.	ssh 远程连接服务器， 记住如果修改了 ssh 默认端口号，请用新的端口号登录
-		Example:
+	Example:
 			ssh -p 2345 root@xxx.xxx.xxx.xxx
 2.	安装Shadowsocks 服务器:
-#+BEGIN_SRC shell
-	yum update
-	yum install python-setuptools && easy_install pip
-	pip install shadowsocks
-#+END_SRC
+
+			yum update
+			yum install python-setuptools && easy_install pip
+			pip install shadowsocks
+
 
 3.	配置一个基本的Shadowsocks 服务器:
 	这里我们需要用到vi 编辑器 (不要慌。。。)
